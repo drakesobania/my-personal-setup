@@ -22,3 +22,8 @@ return
 Enter::
   Send {AppsKey}
 return
+
+; ctrl + space = windows key
+^Space::
+  Send {Ctrl up}{RWin}
+return
